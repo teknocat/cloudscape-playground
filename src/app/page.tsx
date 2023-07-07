@@ -1,7 +1,7 @@
 'use client';
 import "@cloudscape-design/global-styles/index.css"
 import TestForm from "@/app/TestForm";
-import {AppLayout, Container, ContentLayout, Header} from "@cloudscape-design/components";
+import {AppLayout, ContentLayout, Header} from "@cloudscape-design/components";
 import * as React from "react";
 
 export default function Home() {
