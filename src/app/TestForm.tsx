@@ -19,7 +19,7 @@ const TestForm = () => {
         setErrorMessages(errorMessage);
 
         if (!errorMessage["awsAccountId"] && !errorMessage["bucketName"]) {
-
+          console.log('success');
         }
       }}>
       <Form
